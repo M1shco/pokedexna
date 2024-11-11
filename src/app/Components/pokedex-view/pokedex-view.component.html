@@ -1,0 +1,14 @@
+<div class="pokedex-view">
+    <header class="title">POKEDEX</header>
+    
+    <main class="pokedex"> 
+        <div class="img"><app-pokedex [imageUrl]="pokemonImagen" (clickPokemon)="handlePokemon($event)"></app-pokedex></div>
+        <div class="points-container">
+            <span class="point"></span>
+            <span class="point"></span> 
+        </div>
+    </main>
+
+    <section class="graph"><app-grafico></app-grafico></section>
+    
+</div>

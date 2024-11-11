@@ -1,0 +1,37 @@
+<div class="stats">
+    <div class="nombre">
+        
+        <span class="nombres">{{nombrePokemon}}</span>
+
+    </div>
+    <div class="a">
+        <h2>tipo:</h2>
+        <span class="nombresa">{{tipoPokemon}}</span>
+    </div>
+    <div class="vida">
+    <h2>vida:</h2>
+    <span class="health"*ngIf="vidaPokemon >= 20">❤️</span>
+    <span class="health"*ngIf="vidaPokemon >= 40">❤️</span>
+    <span class="health"*ngIf="vidaPokemon >= 60">❤️</span>
+    <span class="health"*ngIf="vidaPokemon >= 80">❤️</span>
+    <span class="health" *ngIf="vidaPokemon >= 100">❤️</span>
+</div>
+    <div class="defensa">
+        <h2>defensa:</h2>
+    <span class="health"*ngIf="defensaPokemon >= 20">🛡️</span>
+    <span class="health"*ngIf="defensaPokemon >= 40">🛡️</span>
+    <span class="health"*ngIf="defensaPokemon >= 60">🛡️</span>
+    <span class="health"*ngIf="defensaPokemon >= 80">🛡️</span>
+    <span class="health" *ngIf="defensaPokemon >= 100">🛡️</span>
+</div>
+<div class="ataque">
+    <h2>ataque:</h2>
+    <span class="health"*ngIf="ataquePokemon >= 5">⚔️</span>
+    <span class="health"*ngIf="ataquePokemon >= 10">⚔️</span>
+    <span class="health"*ngIf="ataquePokemon >= 15">⚔️</span>
+    <span class="health"*ngIf="ataquePokemon >= 20">⚔️</span>
+</div>
+
+
+</div>
+
